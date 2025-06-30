@@ -1,24 +1,71 @@
-# Compiled class file
+# ========================
+# 💻 Java & Gradle
+# ========================
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
+*.log
+*.tmp
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven (if accidentally included)
+target/
+
+# ========================
+# 🧪 Test Reports
+# ========================
+test-output/
+surefire-reports/
+jacoco.exec
+
+# ========================
+# 📦 Package Metadata
+# ========================
+*.iml
+*.ipr
+*.iws
+
+# ========================
+# 🖥 IDE & Editor 설정 파일
+# ========================
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# 📱 Mobile Tools
+# ========================
+.mtj.tmp/
+
+# ========================
+# ⚙️ OS Specific
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# ❌ 민감 정보 보호
+# ========================
+application.properties
+application.yml
+.env
+.env.*
+
+# 예시 설정 파일만 허용 (필요 시 따로 추가)
+!application-example.properties
+!application-example.yml
+
+# ========================
+# 🔥 JVM Crash Logs
+# ========================
 hs_err_pid*
 replay_pid*
